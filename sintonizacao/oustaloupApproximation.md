@@ -36,7 +36,9 @@ Essa aproximação é válida dentro de um intervalo específico de frequência.
 
 ## 📊 Exemplo (como no Gráfico 6 do TCC)
 
-No TCC, um exemplo gráfico compara a resposta em frequência de um controlador PID clássico e de um FOPID com \( λ = μ = 0.5 \), evidenciando a diferença de comportamento em baixas e altas frequências.
+No TCC, um exemplo gráfico compara a resposta em frequência de um controlador PID clássico com \( kp = ki = kd = 1 \) e de um FOPID com \( λ = μ = 0.5 \), evidenciando a diferença de comportamento em baixas e altas frequências.
+
+![Gráfico – Diagrama Bode PIDvsFOPID](../figuras/DiagramaBode_PIDvsFOPID.png)
 
 O código utilizado para gerar este gráfico está disponível em [`oustaloupApproximation.py`](oustaloupApproximation.py).
 
