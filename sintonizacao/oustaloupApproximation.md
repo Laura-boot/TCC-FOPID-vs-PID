@@ -4,11 +4,11 @@ Este documento apresenta um resumo teórico dos fundamentos do controlador FOPID
 
 ---
 
-## 🧠 Controlador FOPID (PI^λ D^μ)
+## 🧠 Controlador FOPID (PI<sup>λ</sup>D<sup>μ</sup>)
 
 O controlador FOPID é uma extensão do controlador PID clássico que permite ordens fracionárias nas ações integrativa e derivativa:
 
-C(s) = Kp + Ki / s^λ + Kd * s^μ
+C(s) = Kp + Ki / s<sup>λ</sup> + Kd * s<sup>μ</sup>
 
 - λ: ordem fracionária da parte integrativa  
 - μ: ordem fracionária da parte derivativa  
@@ -20,7 +20,7 @@ C(s) = Kp + Ki / s^λ + Kd * s^μ
 
 A aproximação de Oustaloup permite representar o operador fracionário s^α como uma função de transferência racional:
 
-s^α ≈ K × ∏[(s + z_k) / (s + p_k)], para k = -N até N
+s<sup>α</sup> ≈ K × ∏[(s + z_k) / (s + p_k)], para k = -N até N
 
 Onde:
 
