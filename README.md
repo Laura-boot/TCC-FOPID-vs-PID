@@ -18,6 +18,13 @@ Comparar o desempenho dos controladores PI, PID (convencionais) e FOPID (de orde
 
 ---
 
+> 📢 **Este repositório é um apêndice técnico do artigo submetido ao XVII Simpósio Brasileiro de Automação Inteligente (SBAI 2025).**  
+> Os resultados, códigos e simulações aqui apresentados fazem parte da base experimental do trabalho.  
+>  
+> 🔜 Em breve, o artigo completo estará disponível nos **anais oficiais do SBAI 2025**.
+
+---
+
 ## 🛠 Tecnologias e Ferramentas
 
 - MATLAB R2023a+
